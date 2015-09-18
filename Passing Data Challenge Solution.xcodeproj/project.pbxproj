@@ -21,6 +21,7 @@
 		D4E24B161BAC549A00001E8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E24AF81BAC549A00001E8F /* UIKit.framework */; };
 		D4E24B1E1BAC549A00001E8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4E24B1C1BAC549A00001E8F /* InfoPlist.strings */; };
 		D4E24B201BAC549A00001E8F /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E24B1F1BAC549A00001E8F /* Passing_Data_Challenge_SolutionTests.m */; };
+		D4E24B2B1BAC561B00001E8F /* CCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E24B2A1BAC561B00001E8F /* CCDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D4E24B1B1BAC549A00001E8F /* Passing Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		D4E24B1D1BAC549A00001E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4E24B1F1BAC549A00001E8F /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		D4E24B291BAC561B00001E8F /* CCDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDetailViewController.h; sourceTree = "<group>"; };
+		D4E24B2A1BAC561B00001E8F /* CCDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				D4E24B061BAC549A00001E8F /* Main.storyboard */,
 				D4E24B091BAC549A00001E8F /* CCViewController.h */,
 				D4E24B0A1BAC549A00001E8F /* CCViewController.m */,
+				D4E24B291BAC561B00001E8F /* CCDetailViewController.h */,
+				D4E24B2A1BAC561B00001E8F /* CCDetailViewController.m */,
 				D4E24B0C1BAC549A00001E8F /* Images.xcassets */,
 				D4E24AFB1BAC549A00001E8F /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				D4E24B051BAC549A00001E8F /* CCAppDelegate.m in Sources */,
 				D4E24B011BAC549A00001E8F /* main.m in Sources */,
 				D4E24B0B1BAC549A00001E8F /* CCViewController.m in Sources */,
+				D4E24B2B1BAC561B00001E8F /* CCDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
